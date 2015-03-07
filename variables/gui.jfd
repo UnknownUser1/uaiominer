@@ -1,0 +1,168 @@
+JFDML JFormDesigner: "5.2.1.0.138" Java: "1.8.0_31" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+			name: "this"
+			add( new FormContainer( "javax.swing.JTabbedPane", new FormLayoutManager( class javax.swing.JTabbedPane ) ) {
+				name: "tabbedPane1"
+				"font": new java.awt.Font( "Tekton Pro", 1, 14 )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+					name: "panel1"
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label3"
+						"text": "UMiner - Aio"
+						"font": new java.awt.Font( "Trajan Pro", 3, 18 )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 65
+						"y": 5
+						"width": 190
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label4"
+						"text": "Information"
+						"font": new java.awt.Font( "Trajan Pro", 1, 12 )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 5
+						"y": 35
+						"width": 100
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label5"
+						"text": "- Choose mining location, Then select correct ore"
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 5
+						"y": 60
+						"width": 350
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label6"
+						"text": "That is at the mining location"
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 10
+						"y": 80
+						"width": 215
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label7"
+						"text": "- Auto Relog will log you in if logged out"
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 5
+						"y": 100
+						"width": 220
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label9"
+						"text": "- Will bank if powermine is not selected"
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 5
+						"y": 120
+						"width": 240
+					} )
+				}, new FormLayoutConstraints( null ) {
+					"title": "Information"
+				} )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+					name: "panel2"
+					add( new FormComponent( "javax.swing.JCheckBox" ) {
+						name: "checkBox_Relogin"
+						"text": "Want To Auto Login?"
+						"font": new java.awt.Font( "Arial", 1, 11 )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 160
+						"y": 25
+						"width": 150
+					} )
+					add( new FormComponent( "javax.swing.JComboBox" ) {
+						name: "comboBox_Location"
+						"model": new javax.swing.DefaultComboBoxModel {
+							selectedItem: "Varrock East"
+							addElement( "Varrock East" )
+							addElement( "Al Kharid" )
+							addElement( "Dwarven Mine" )
+							addElement( "Lumbridge East" )
+							addElement( "Runeite" )
+						}
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 10
+						"y": 25
+						"width": 140
+					} )
+					add( new FormComponent( "javax.swing.JComboBox" ) {
+						name: "comboBox_Ore"
+						"model": new javax.swing.DefaultComboBoxModel {
+							selectedItem: "Copper Ore"
+							addElement( "Copper Ore" )
+							addElement( "Tin Ore" )
+							addElement( "Iron Ore" )
+							addElement( "Silver Ore" )
+							addElement( "Coal" )
+							addElement( "Gold Ore" )
+							addElement( "Mithril Ore" )
+							addElement( "Adamantite Ore" )
+							addElement( "Runeite Ore" )
+						}
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 10
+						"y": 85
+						"width": 140
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label1"
+						"text": "Location To Mine"
+						"font": new java.awt.Font( "Trajan Pro", 1, 12 )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 10
+						"y": 5
+						"width": 135
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label2"
+						"text": "Ore To Mine"
+						"font": new java.awt.Font( "Trajan Pro", 1, 12 )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 10
+						"y": 65
+					} )
+					add( new FormComponent( "javax.swing.JCheckBox" ) {
+						name: "checkBox_Powermine"
+						"text": "Power Mine?"
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 160
+						"y": 85
+						"width": 115
+					} )
+				}, new FormLayoutConstraints( null ) {
+					"title": "Settings"
+				} )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 0
+				"y": 0
+				"width": 315
+				"height": 175
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label8"
+				"text": "Made by - Unknownuser"
+				"font": new java.awt.Font( "Trajan Pro", 1, 12 )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 5
+				"y": 230
+				"width": 190
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button_Run"
+				"text": "Run"
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "button_RunActionPerformed", true ) )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 10
+				"y": 180
+				"width": 120
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 325, 285 )
+		} )
+	}
+}
